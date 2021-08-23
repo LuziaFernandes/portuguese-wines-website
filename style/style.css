@@ -1,2 +1,11 @@
+body {background-color: cornsilk;}
+
 footer {margin: 0 auto;
 display: block;}
+
+a {color: green;}
+
+img {margin: 0 auto;
+display: block;}
+
+.email-link {color: blue;}
