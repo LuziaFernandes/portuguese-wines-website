@@ -1,8 +1,17 @@
-body {background-color: cornsilk;
-margin: 0px 300px;}
+body {
+    background-color: rgb(243,232,193);
+}
+header {
+    background-color: rgb(248,242,221);
+    padding-bottom: 80px;
+}
 
 h1 {
-    margin: 80px 0px;
+    padding: 30px 0px;
+    text-align: center;
+   background-color: rgb(11, 67, 48);
+   color: rgb(248,242,221);
+   margin-bottom: 20px;
 }
 p {
     font-size: 18px;
@@ -20,8 +29,31 @@ img {
 }
 
 footer {
-    margin: 100px 0px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    font-weight: bold;
 }
+
+
+
+.navbar-expand-lg .navbar-collapse {
+background-color:rgb(248,242,221);
+font-size: 20px;
+margin-top: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+ color: #baa880;
+ margin-right: 30px;
+ margin-left: 30px;
+
+ }
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(132,66,4);
+    margin-right: 20px;
+}
+.main-content {
+    margin: 0px 300px;}
+
 .small-introduction {
     font-weight: bold;
     text-align: left;
@@ -38,10 +70,13 @@ footer {
     font-size: 20px;
 }
 
+.page-link-section {
+    margin: 100px 0px;
+}
+
 .pageLink {
     font-size: 20px;
     margin-right: 80px;
-    font-weight: bold;
     text-decoration: none;
     color: rgb(132,66,4);
 }
@@ -49,4 +84,30 @@ footer {
     cursor: pointer;
     color:#e6b980;
     transition: all 0.5s ease-out;
+}
+
+@media (max-width: 576px) { 
+
+    header {
+        padding-bottom: 40px;
+    }
+
+    img {
+        margin-bottom: 5px;
+    }
+    footer {
+        font-size: 8px;
+        text-align: justify;
+    }
+   
+    .main-content {
+        margin: 0px;}
+    .page-link-section {
+        display: none;
+    }
+    .pageLink {
+            font-size: 10px;
+        }
+
+   
 }
