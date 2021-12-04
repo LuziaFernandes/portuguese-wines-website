@@ -11,14 +11,87 @@
     <title>An example of the best croissant in Porto - Croissant.com</title>
 </head>
 <body>
-    <div class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link disable" aria-current="page" href="#">HOMEPAGE</a>
+                  <a class="nav-link active" href="/activities.html">ACTIVITIES</a>
+                  <a class="nav-link active" href="/contact.html">CONTACT</a>
+                 </div>
+              </div>
+            </div>
+          </nav>
+    
+    </header>
 
-    <h1 class="text-center">🥐 A picture of a croissant </h1>
-    <img src="/images/croissant.jpg" alt="croissant" class="img-fluid rounded">
+    <h1> ACTIVITIES </h1>
+<section class="main-content">
+    <div class="container-fluid text-center">
 
-<footer class="text-center">
-<a href="/index.html">Homepage</a>  <a href="/photo.html">Photo</a>   <a href="/contact.html">Contact</a>
-</footer>
-</div>
+    <h3> 
+        HOW TO DO A TASTING?
+    </h3>
+
+  
+        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsVisual()">First - VISUAL: </button>
+        <div class="sensations-description" id="sensations-description-visual" style="display: none">
+            Color - Red (loose color witha age), White (gain color witha age), ... 
+            Fluency - Body of the wine (volume).
+            Limpidity - Clear/cloudy, normal/abnormal color.
+            Gas - Presence or lack of gas in the  wine. 
+        </div>
+
+
+
+        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsSmell()"> Second - SMELL:</button>
+
+
+        <div class="sensations-description" id="sensations-description-smell" style="display: none">
+            Codition: clean / Dirty;
+            Intensity: weak; medium, strong;
+            Growth: young, evolved, tired, oxidated;
+            Aromatic Caractér: fruty, floral, vegetable, spicy, woody, smoky, animal, complex.  
+        </div>
+
+
+        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsPalate()"> Third - PALATE:</button>
+        <div class="sensations-description" id="sensations-description-palate" style="display: none">
+            When you taste the wine in the mounth you have two types of sensations:
+            1- Taste: sweet, acidic, bitter, salty;
+            2- Tactile: causticity, astringency (tanines), viscosity, thermal sensations, pungent sensations.
+
+        </div>
+
+
+        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsTouch()"> FEEL:</button>
+        <div class="sensations-description" id="sensations-description-touch" style="display: none">
+            Temperature / Body / Tanines
+        </div>
+
+        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsListen()"> LISTEN: </button>
+        
+        <div class="sensations-description" id="sensations-description-listen" style="display: none">
+            On the click of the toast 🥂 !
+        </div>
+
+    
+  
+
+        <section class="page-link-section">
+            <a href="/index.html" class="pageLink">HOMEPAGE</a>  <a href="/activities.html" class="pageLink">ACTIVITIES</a>   <a href="/contact.html" class="pageLink">CONTACTS</a>
+            </section>
+        
+            <footer>
+                This website was coded by Luzia Fernandes during the SheCodes Course, and its <a href ="https://github.com/LuziaFernandes/croissant-website" class="pageLink">open-sourced</a>
+            </footer>
+            </section>
+
+ </div>
+ <script src="/index.js"></script>
 </body>
 </html>
