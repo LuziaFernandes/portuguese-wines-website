@@ -79,6 +79,19 @@ margin-top: 15px;
     color: rgb(132,66,4);
     margin-right: 20px;
 }
+.translations-link {
+    margin-left: 60%;
+}
+
+.pageLink-translation {
+    text-decoration: none;
+    color:rgb(132,66,4);
+    }
+.pageLink-translation:hover {
+    cursor: pointer;
+    color: #e6b980;
+    transition: all 0.5s ease-out;
+}
 .main-content {
     margin: 0px 250px;}
 
