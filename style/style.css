@@ -130,7 +130,15 @@ margin-top: 15px;
     font-size: 16px;
     width: 100%;
 }
-
+.plus-link {
+    margin-left: 90%;
+    font-weight: bold;
+}
+.plus-link:hover {
+     cursor: pointer;
+    color:#e6b980;
+    transition: all 0.5s ease-out;
+}
 .sensations-description {
     width: 100%;
     text-align: left;
