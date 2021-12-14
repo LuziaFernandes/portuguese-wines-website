@@ -142,8 +142,9 @@ margin-top: 15px;
     width: 100%;
 }
 .plus-link {
-    margin-left: 90%;
+    float: right;
     font-weight: bold;
+    font-size: 20px;
 }
 .plus-link:hover {
      cursor: pointer;
@@ -172,8 +173,11 @@ margin-top: 15px;
     color:#e6b980;
     transition: all 0.5s ease-out;
 }
-
-
+.smooth {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transition: all 0.5s ease-out;   
+    }
 
 
 @media (max-width: 576px) { 

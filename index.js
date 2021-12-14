@@ -1,49 +1,84 @@
+function displayDiv() {
+    var description = document.getElementById("sensations-description");
+    var plusButton = document.getElementById("plus-link");
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        description.className = 'smooth';
+        plusButton.innerHTML = document.getElementById("plus-link").innerHTML.replace('+', '-');
 
 
-
-
-function showSensationsVisual() {
-    document.getElementById("sensations-description-visual").style.display = 'block';
-    document.getElementById("button-sensations-description").innerHTML = document.getElementById("button-sensations-description").innerHTML.replace('+', '-');
+    } else {
+        description.style.display = "none";
+        plusButton.innerHTML = document.getElementById("plus-link").innerHTML.replace('-', '+');
 
     }
+  }
 
-function hideSensationsVisual() {
-    document.getElementById("sensations-description-visual").style.display = 'none';
-    document.getElementById("button-sensations-description").innerHTML = document.getElementById("button-sensations-description").innerHTML.replace('-', '+');
+  function displayDivSmell() {
+    var description = document.getElementById("sensations-description-smell");
+    var plusButton = document.getElementById("plus-link-smell");
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        description.className = 'smooth';
+        plusButton.innerHTML = document.getElementById("plus-link-smell").innerHTML.replace('+', '-');
 
-}
 
+    } else {
+        description.style.display = "none";
+        plusButton.innerHTML = document.getElementById("plus-link-smell").innerHTML.replace('-', '+');
 
-
-
-function showSensationsSmell() {
-    document.getElementById("sensations-description-smell").style.display = 'block';
     }
+  }
 
-function hideSensationsSmell() {
-        document.getElementById("sensations-description-smell").style.display = 'none';
+
+  function displayDivPalate() {
+    var description = document.getElementById("sensations-description-palate");
+    var plusButton = document.getElementById("plus-link-palate");
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        description.className = 'smooth';
+        plusButton.innerHTML = document.getElementById("plus-link-palate").innerHTML.replace('+', '-');
+
+
+    } else {
+        description.style.display = "none";
+        plusButton.innerHTML = document.getElementById("plus-link-palate").innerHTML.replace('-', '+');
+
     }
-    
-    
-function showSensationsPalate() {
-        document.getElementById("sensations-description-palate").style.display = 'block';
-        }
- function hideSensationsPalate() {
-            document.getElementById("sensations-description-palate").style.display = 'none';
-        }
-        
-function showSensationsTouch() {
-            document.getElementById("sensations-description-touch").style.display = 'block';
-            }
-function hideSensationsTouch() {
-                document.getElementById("sensations-description-touch").style.display = 'none';
-            }
-            
-function showSensationsListen() {
-                document.getElementById("sensations-description-listen").style.display = 'block';
-                }
-function hideSensationsListen() {
-                    document.getElementById("sensations-description-listen").style.display = 'none';
-                }
+  }
 
+
+
+  function displayDivTouch() {
+    var description = document.getElementById("sensations-description-touch");
+    var plusButton = document.getElementById("plus-link-touch");
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        description.className = 'smooth';
+        plusButton.innerHTML = document.getElementById("plus-link-touch").innerHTML.replace('+', '-');
+
+
+    } else {
+        description.style.display = "none";
+        plusButton.innerHTML = document.getElementById("plus-link-touch").innerHTML.replace('-', '+');
+
+    }
+  }
+
+
+
+  function displayDivListen() {
+    var description = document.getElementById("sensations-description-listen");
+    var plusButton = document.getElementById("plus-link-listen");
+    if (description.style.display === "none") {
+        description.style.display = "block";
+        description.className = 'smooth';
+        plusButton.innerHTML = document.getElementById("plus-link-listen").innerHTML.replace('+', '-');
+
+
+    } else {
+        description.style.display = "none";
+        plusButton.innerHTML = document.getElementById("plus-link-listen").innerHTML.replace('-', '+');
+
+    }
+  }

@@ -42,8 +42,8 @@
     </h3>
 
   
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsVisual()">Primeiro - VISUAL: </button>
-        <div class="sensations-description" id="sensations-description-visual" style="display: none">
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDiv()">Primeiro - VISUAL: <span class="plus-link" id="plus-link">+</span></button>
+        <div class="sensations-description" id="sensations-description" style="display: none">
             Cor - Tinto (perde cor com a idade), Branco (ganha cor com a idade), ...
             Fluidez - Corpo do vinho (volume).
             Limpidez - Limpido/turvo, cor normal/anormal. 
@@ -52,7 +52,7 @@
 
 
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsSmell()"> Segundo - OLFATO:</button>
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivSmell()"> Segundo - OLFATO: <span class="plus-link" id="plus-link-smell">+</span></button>
 
 
         <div class="sensations-description" id="sensations-description-smell" style="display: none">
@@ -64,7 +64,7 @@
         </div>
 
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsPalate()"> Terceiro - PALATO:</button>
+        <button class="button-sensations-description" id="button-sensations-description"  onclick="displayDivPalate()"> Terceiro - PALATO: <span class="plus-link" id="plus-link-palate">+</span></button>
         <div class="sensations-description" id="sensations-description-palate" style="display: none">
            Quando prova o vinho existem duas classes de sensações presentes:
            1- Gustativas: doce, ácida, amargo, salgado.
@@ -73,12 +73,12 @@
         </div>
 
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsTouch()"> TACTO:</button>
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivTouch()"> TACTO: <span class="plus-link" id="plus-link-touch">+</span></button>
         <div class="sensations-description" id="sensations-description-touch" style="display: none">
             Temperatura / Corpo / Adstringência (Tanino)
         </div>
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsListen()"> AUDIÇÃO: </button>
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivListen()"> AUDIÇÃO: <span class="plus-link" id="plus-link-listen">+</span></button>
         
         <div class="sensations-description" id="sensations-description-listen" style="display: none">
             No momento do brinde! Saúde  🥂 

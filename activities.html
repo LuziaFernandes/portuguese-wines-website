@@ -44,17 +44,15 @@
     </h3>
 
   
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsVisual()" ondblclick="hideSensationsVisual()">First - VISUAL: <span class="plus-link">+</span></button>
-        <div class="sensations-description" id="sensations-description-visual" style="display: none">
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDiv()">First - VISUAL: <span class="plus-link" id="plus-link">+</span></button>
+        <div class="sensations-description" id="sensations-description" style="display: none">
             Color - Red (loose color witha age), White (gain color witha age), ... 
             Fluency - Body of the wine (volume).
             Limpidity - Clear/cloudy, normal/abnormal color.
             Gas - Presence or lack of gas in the  wine. 
         </div>
 
-
-
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsSmell()" ondblclick="hideSensationsSmell()"> Second-SMELL:<span class="plus-link">+</span></button>
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivSmell()"> Second-SMELL:<span class="plus-link" id="plus-link-smell">+</span></button>
 
 
         <div class="sensations-description" id="sensations-description-smell" style="display: none">
@@ -65,7 +63,7 @@
         </div>
 
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsPalate()" ondblclick="hideSensationsPalate()"> Third - PALATE:<span class="plus-link">+</span></button>
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivPalate()"> Third - PALATE:<span class="plus-link" id="plus-link-palate">+</span></button>
         <div class="sensations-description" id="sensations-description-palate" style="display: none">
             When you taste the wine in the mounth you have two types of sensations:
             1- Taste: sweet, acidic, bitter, salty;
@@ -74,12 +72,15 @@
         </div>
 
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsTouch()" ondblclick="hideSensationsTouch()"> Fourth - FEEL: <span class="plus-link">+</span></button>
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivTouch()"> Fourth - FEEL: <span class="plus-link" id="plus-link-touch">+</span></button>
         <div class="sensations-description" id="sensations-description-touch" style="display: none">
             Temperature / Body / Tanines
         </div>
 
-        <button class="button-sensations-description" id="button-sensations-description" onclick="showSensationsListen()" ondblclick="hideSensationsListen()"> Fith - LISTEN:   <span class="plus-link">+</span> </button>
+
+
+       
+        <button class="button-sensations-description" id="button-sensations-description" onclick="displayDivListen()"> Fith - LISTEN:   <span class="plus-link" id="plus-link-listen">+</span> </button>
         
         <div class="sensations-description" id="sensations-description-listen" style="display: none">
             On the click of the toast 🥂 !
